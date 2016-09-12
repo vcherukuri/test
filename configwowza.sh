@@ -6,8 +6,10 @@ cd /home/$1
 sudo apt-get update
 sudo apt-get install -y npm
 wget http://aka.ms/linux-azure-cli
+wget http://aka.ms/vmagentlinux
 sudo npm install -g linux-azure-cli
 sudo ln -s /usr/bin/nodejs /usr/bin/node
+sudo npm install -g vmagentlinux
 azure telemetry --disable
 
 export AZURE_STORAGE_ACCOUNT=$2
