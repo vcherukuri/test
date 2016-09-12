@@ -1,7 +1,7 @@
 #!/bin/bash
 #arguments: username, storage account, access key, container name
 #Install azure CLI for storage 
-sudo su
+#sudo su
 cd /home/$1
 sudo apt-get update
 sudo apt-get install -y npm
